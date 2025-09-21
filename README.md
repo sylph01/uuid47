@@ -1,5 +1,7 @@
 # UUID47
 
+[![Gem Version](https://badge.fury.io/rb/uuid47.svg)](https://badge.fury.io/rb/uuid47)
+
 Implementation of [UUIDv47](https://github.com/stateless-me/uuidv47) in Ruby
 
 ## Installation
