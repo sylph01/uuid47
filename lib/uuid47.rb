@@ -2,6 +2,7 @@
 
 require_relative "uuid47/version"
 require 'siphash'
+require 'uuidtools'
 
 module UUID47
   class Error < StandardError; end
