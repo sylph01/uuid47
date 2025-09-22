@@ -26,7 +26,7 @@ require 'securerandom'
 key = SecureRandom.random_bytes(16)
 v7 = "018f2d9f-9a2a-7def-8c3f-7b1a2c4d5e6f" # any v7 will work
 v4facade = UUID47.encode_v4facade(v7, key)
-v7_recoved = UUID47.decode_v4facade(v4facade, key)
+v7_recovered = UUID47.decode_v4facade(v4facade, key)
 ```
 
 ## Development
